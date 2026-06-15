@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #e7d8b7;
+  padding: 15px;
+}
+
+/* TOPO */
+.topo {
+  background: #6f5b39;
+  border-radius: 15px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden; /* 🔥 faz virar círculo */
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 🔥 encaixa certinho */
+}
+
+/* BOTÃO TOPO */
+.btn-topo {
+  background: #381d0b;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.btn-topo:hover {
+  transform: scale(1.05);
+}
+
+/* CONTAINER LOGIN */
+.login-container {
+  margin-top: 20px;
+  background: #6f5b39;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #f1e3d7;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: #f1e3d7;
+}
+
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: #8c8279;
+  
+}
+
+input::placeholder {
+  color: #f1e3d7;
+}
+
+/* BOTÃO LOGIN */
+.btn-login {
+  margin-top: 25px;
+  padding: 15px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.btn-login:hover {
+  transform: scale(1.02);
+}
+
+.btn-login:active {
+  transform: scale(0.95);
+  background: #333;
+}
+
+/* ESQUECEU SENHA */
+.forgot {
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: right;
+  text-decoration: none;
+  color: #d0bfae;
+}
+
+rodape {
+  width: 100%;
+  margin-top: 20px;
+  background: #000;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  color: white;
+}
+
+/* REDES SOCIAIS */
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ÍCONES */
+.redes a {
+  color: #f1e3d7;
+  font-size: 20px;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+/* ANIMAÇÃO NO HOVER */
+.redes a:hover {
+  transform: translateY(-5px) scale(1.2);
+  color: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 20px;
+  background: #000000;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
